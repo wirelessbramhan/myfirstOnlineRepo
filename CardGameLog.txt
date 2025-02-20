@@ -1,0 +1,22 @@
+//Card.java
+public class Card
+{
+  public boolean IsFacingUp;
+  public int CardNumber;
+  
+  public void PrintCard()
+  {
+    System.out.println(CardNumber);
+  }
+}
+
+//HeartCard.java
+public class HeartCard "extends" Card
+{
+
+}
+
+[Heart, Club, Spade, Diamond]
+
+//Never are we making a COllection of Cards. 
+//That happens in Main function.LAST STEP.
